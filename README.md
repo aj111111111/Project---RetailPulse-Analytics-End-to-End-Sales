@@ -1,14 +1,4 @@
-**SQL-to-Pandas Refactoring:** Translated 10 complex SQL analytical queries into efficient, using SQL.
 
-**Data Preprocessing & Encoding:** Cleaned the 3,900-record customer behavior dataset.
-
-**Regression Modeling & Evaluation:** 
-
-**Classification Modeling:** Built a Logistic Regression model to predict customer subscription status, achieving a strong 83% prediction accuracy.
-
-**Business Insights & Strategy:** Evaluated model outputs, highlighting the readiness of classification for targeted marketing campaigns.
-
----
 
 # RetailPulse Analytics: End-to-End Sales Performance & Predictive Modeling
 
@@ -35,15 +25,6 @@ This repository contains a complete data workflow spanning data engineering, exp
 * **Segment Dominance:** High-volume sales are concentrated primarily in the Government and Small Business sectors.
 * **Product Performance:** Paseo leads in profitability, demonstrating high profit variability and peak outlier returns.
 
----
-
-## 🤖 Machine Learning Model
-
-A **Linear Regression** model was built using `scikit-learn` to predict sales based on features including `Units Sold`, `Gross Sales`, `Profit`, `Country`, `Product`, and `Segment`.
-
-* **$R^2$ Score:** `0.9981` (The model explains **99.81%** of the variance in sales).
-* **Mean Squared Error (MSE):** `105,081,273.08` ($\text{USD}^2$).
-* **Root Mean Squared Error (RMSE):** `$10,250.92` (Indicates an average prediction error margin of about $10.2k against transactions exceeding $1,000,000).
 
 ---
 
